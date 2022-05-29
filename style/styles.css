@@ -1,0 +1,96 @@
+body{
+    font-family: Arial, Helvetica, sans-serif; 
+    
+}
+header h1{
+    text-align: center; 
+    justify-content: center;
+}
+fieldset{
+    margin: 20px auto auto auto;
+    border: solid black 1px;
+    background-color: beige;
+    border-radius: 5px;
+    width: 500px;
+}
+fieldset legend{
+    display: block;
+    background-color: black;
+    
+
+}
+fieldset legend{
+    display: block;
+    background-color: black;
+    color: white;
+    
+}
+
+.grid-container form{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    margin: 20px auto auto auto;
+    width: 500px;
+}
+
+
+.grid-item {
+    
+    margin: 2px
+    
+}
+
+/*div:nth-child(2){
+   
+}
+*/
+input[type="text"] {
+    margin: 1px;
+  }
+
+#checkmark {
+    width: 10%;
+    margin-right: 200px;
+    
+}
+
+.custom-class {
+    display: grid;
+    grid-template-columns: 2fr;
+    border : 1px solid black;
+    margin: 10px auto auto auto;
+    width: 500px;
+    background-color: beige;
+    border-radius: 5px;
+  }
+
+  .custom-class p{
+      margin-left: 5px;
+      
+  }
+
+  .custom-class hr{
+    height: 1px;
+    background-color: #ccc;
+    border: none;
+    width: 90%;
+    margin: 5px 0 5px 0
+    
+  }
+.custom-class [type = 'button']{
+    margin: 5px 2px 5px 2px;
+   display: block;
+}
+
+
+img{
+display: block;
+width: 80%;
+margin: 10px auto 10px auto;
+}
+
+footer h2{
+    text-align: center; 
+    font-size: 1em;
+
+}
